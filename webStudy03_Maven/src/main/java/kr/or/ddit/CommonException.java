@@ -17,7 +17,7 @@ package kr.or.ddit;
 public class CommonException extends RuntimeException {
 
 	public CommonException() {
-		super();
+		super();//아무거나
 	}
 
 	public CommonException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
